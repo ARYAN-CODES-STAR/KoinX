@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { ArrowUp, ArrowDown } from "lucide-react";
-import Technicals from "../[coinId]/components/sections/Technicals.jsx"
+import Technicals from "../[coinId]/components/sections/Technicals";
 
 interface CoinDetailsData {
   id: string;
@@ -221,7 +221,7 @@ function TeamSection({ data }: { data: CoinDetailsData }) {
   return (
     <div className="gap-6">
       <div className="bg-white rounded-lg p-6 shadow-lg">
-        <Technicals />
+      <Technicals />
       </div>
     </div>
   );
