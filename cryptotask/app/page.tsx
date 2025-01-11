@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import CryptoDashboard from './[coinId]/CryptoDashboard'
+import CryptoDashboard from './[coinId]/components/CryptoDashboard'
 
 export default function Home() {
   return (
